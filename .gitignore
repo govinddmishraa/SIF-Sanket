@@ -1,0 +1,47 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+.pytest_cache/
+
+# Hugging Face / Transformers cache
+.cache/
+huggingface_cache/
+
+# Trained model files
+models/
+
+# Model checkpoints
+checkpoint-*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment / secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
